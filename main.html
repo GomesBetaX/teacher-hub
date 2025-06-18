@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher Hub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher RPG Dashboard</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2>Dashboard</h2>
+      <ul>
+        <li>Quests</li>
+        <li>Inventory</li>
+        <li>Shop</li>
+        <li>Stronghold</li>
+        <li>Profile</li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <h1>Welcome, Adventurer</h1>
+
+      <section class="quests">
+        <h3>Quests</h3>
+        <div class="quest">
+          <p>Quest Name</p>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="quest">
+          <p>Quest Name</p>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+      </section>
+
+      <section class="inventory">
+        <h3>Inventory</h3>
+        <div class="pet">
+          <p>Pet</p>
+          <div class="pet-icon"></div>
+          <p>Gold: 389</p>
+        </div>
+        <div class="item-grid">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+      </section>
+
+      <section class="stronghold">
+        <h3>Stronghold</h3>
+        <div class="castle-icon"></div>
+        <button>Stronghold</button>
+      </section>
+
+      <section class="tasks">
+        <h3>Tasks</h3>
+        <ul>
+          <li>Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li>
+        </ul>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
